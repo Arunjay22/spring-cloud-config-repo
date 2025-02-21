@@ -3,4 +3,5 @@ server:
 greeting:
   message: "Hello from Dev!"
 spring:
-  profiles: dev
+  application:
+    name: config-client-demo
