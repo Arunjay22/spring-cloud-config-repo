@@ -2,6 +2,4 @@ server:
   port: 8081
 greeting:
   message: "Hello from Dev!"
-spring:
-  application:
-    name: config-client-demo
+
