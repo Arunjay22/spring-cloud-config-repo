@@ -1,3 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ 
 
+ # Eureka Server URL*(In client Side We have to set True)
+
+    fetch-registry: true  # Enable fetching registry from Eureka
+    register-with-eureka: true  # Enable registering the service with Eureka
 greeting:
   message: "Hello from Default!"
