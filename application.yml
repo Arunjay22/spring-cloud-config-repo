@@ -7,5 +7,6 @@ eureka:
 
     fetch-registry: true  # Enable fetching registry from Eureka
     register-with-eureka: true  # Enable registering the service with Eureka
+---
 greeting:
   message: "Hello from Default!"
